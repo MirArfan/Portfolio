@@ -2,6 +2,7 @@ import React from 'react'
 import github from '/src/assets/github.svg'
 import shareicon from '/src/assets/share.svg'
 import SectionHeader from '../globalComponent/SectionHeader'
+import ContactForm from './ContactForm'
 
 const ContactSection = () => {
     return (
@@ -10,11 +11,13 @@ const ContactSection = () => {
             <div className='text-center w-[35%]'>
                 <p className='mt-[73px] text-base font-normal '>I am currently seeking employment, and I would appreciate it if you could contact me with any available job opportunities.</p>
                 <button className='text-base font-normal border-2 border-gray-600 rounded-md py-2 px-3.5 mt-16'>Write Message</button>
+                <ContactForm/>
                 <div className={'flex flex-row  gap-1.5  mt-40 justify-center' }>
                     <img className='w-[20px] h-[20px] cursor-pointer' src={github} alt="github icon" />
                     <img className='w-[20px] h-[20px] cursor-pointer' src={shareicon} alt="github icon" />
                 </div>
             </div>
+            
         </div>
     )
 }
