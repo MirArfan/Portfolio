@@ -8,13 +8,15 @@ import ContactSection from '../components/contactComponent/ContactSection'
 import FooterSection from '../components/footerComponent/FooterSection'
 import NavBar from '../components/navComponent/NavBar'
 import ApiCall from '../components/patchData/ApiCall'
+import QuoteData from '../components/patchData/QuoteData'
 
 const HomePage = () => {
   return (
     <div>
         <NavBar/>
-        <ApiCall/>
+        
         <Hero/>
+        <QuoteData/>
         <AboutSection/>
         <ExperienceSection/>
         <ProjectSection/>
