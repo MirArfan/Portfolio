@@ -1,9 +1,9 @@
 import React from 'react'
-
+import rectanglePic from "/src/assets/RectanglePic.jpeg"
 const FeaturedProjectPicture = () => {
   return (
     <div className='w-[50%]'>
-        <img  src="src/assets/RectanglePic.jpeg" alt="picture" />
+        <img  src={rectanglePic} alt="picture" />
     </div>
   )
 }
