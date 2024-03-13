@@ -9,6 +9,7 @@ import NavBar from '../components/navComponent/NavBar'
 import ApiCall from '../components/patchData/ApiCall'
 import QuoteData from '../components/patchData/QuoteData'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ErrorPage from '../components/ErrorComponent/errorPage'
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         <FooterSection/> */}
         <BrowserRouter>
         <NavBar/>
+
           <Routes>
               <Route path='/Portfolio/' index element={<Hero/>} />
               <Route path='/Portfolio' index element={<QuoteData/>} />
@@ -31,6 +33,7 @@ const HomePage = () => {
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />
               <Route path='/Portfolio/project' element={<ProjectSection/>} />
               <Route path='/Portfolio/contact' element={<ContactSection/>} />
+              <Route path='*' element={<ErrorPage/> } />
           </Routes>
           <FooterSection/>
         </BrowserRouter>
