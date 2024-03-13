@@ -27,8 +27,8 @@ const HomePage = () => {
         <NavBar/>
 
           <Routes>
-              <Route path='/Portfolio/' index element={<Hero/>} />
-              <Route path='/Portfolio' index element={<QuoteData/>} />
+              <Route path='/Portfolio/' index element={<><Hero/> <QuoteData/></> } />
+              {/* <Route path='/Portfolio' index element={<QuoteData/>} /> */}
               <Route path='/Portfolio/about' element={<AboutSection/>} />
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />
               <Route path='/Portfolio/project' element={<ProjectSection/>} />
