@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="hero flex justify-center items-center h-screen" style={{ height: '130vh' }} >
             <div className="container mx-auto px-4 py-36 text-center mt-20 ">
                 <h1 className="text-6xl font-semibold  text-black">
-                    Hi, I'm John Smith v
+                    Hi, I'm Mir Arfan Uddin
                 </h1>
                 <p className="mt-6 text-xl text-gray-900 md:text-2xl lg:text-3xl">
                     I design and build things.
