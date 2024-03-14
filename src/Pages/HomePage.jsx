@@ -14,20 +14,12 @@ import ErrorPage from '../components/ErrorComponent/errorPage'
 const HomePage = () => {
   return (
     <div>
-        {/* <NavBar/>
-        <ApiCall/>
-        <Hero/>
-        <QuoteData/>
-        <AboutSection/>
-        <ExperienceSection/>
-        <ProjectSection/>
-        <ContactSection/>
-        <FooterSection/> */}
+
         <BrowserRouter>
         <NavBar/>
 
           <Routes>
-              <Route path='/Portfolio/' index element={<><Hero/> <QuoteData/></> } />
+              <Route path='/Portfolio/' index element={<><Hero/> < ApiCall/></> } />
               {/* <Route path='/Portfolio' index element={<QuoteData/>} /> */}
               <Route path='/Portfolio/about' element={<AboutSection/>} />
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />

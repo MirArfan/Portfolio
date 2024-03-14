@@ -1,47 +1,33 @@
 import React, { useEffect, useState } from 'react'
 
 const useFetch = (url) => {
-
-    const [data, setData] = useState(null);
-    const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState(null);
-
-
-    useEffect(()=>{
-        setTimeout(() => {
-            fetch(url)
-            .then((res)=>{
-                if(!res.ok)
-                {
-                    throw Error("fetching is not successful");
-                }
-                return res.json();
-            })
-            .then((data)=>{
-                setData(data);
-                setIsLoading(false);
-                setError(null);
-            })
-            .catch((error)=>{
-                setError(error.message);
-                setIsLoading(false);
-            })
-        }, 0);
-    }, [url])
-
-    const fetchNewdata=()=>{
-        fetch(url)
-        .then(res => res.json())
-        .then(quote => {
-            setQuote(quote.content);
-            setAuthor(quote.author);
-        });
-    }
-    const refetch = () => {
+    const [quote, setQuote] = useState("");
+    const [author, setAuthor] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
+    
+    const fetchNewQuote = async () => {
         setIsLoading(true);
-        fetchNewdata();
+        
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            setQuote(data.content);
+            setAuthor(data.author);
+            setIsLoading(false);
+        } catch (error) {
+            console.error("Error fetching new quote:", error);
+        }
     };
-    return { data, isLoading, error,refetch };
-}
+
+    useEffect(() => {
+        
+        fetchNewQuote();
+
+    }, [url]);
+
+   
+    return { quote, author, fetchNewQuote , isLoading};
+};
+
 
 export default useFetch
