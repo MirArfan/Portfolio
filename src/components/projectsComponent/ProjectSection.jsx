@@ -2,6 +2,7 @@ import React from 'react'
 import SectionHeader from '../globalComponent/SectionHeader'
 import FeaturedProjectCard from './FeaturedProjectCard'
 import OthersProjectCard from './OthersProjectCard'
+import PortfolioSection from './PortfolioSection'
 
 const ProjectSection = () => {
     return (
@@ -9,7 +10,7 @@ const ProjectSection = () => {
             <div id='project' className='flex flex-col items-center pb-[120px] pt-[120px]  bg-gray-100  '>
                 <SectionHeader sectionHeading="Featured Project" />
                 <FeaturedProjectCard flexdir="flex-row" />
-                <FeaturedProjectCard flexdir="flex-row-reverse" />
+                <PortfolioSection flexdir="flex-row-reverse" />
 
             </div>
             <div className='flex flex-col items-center pb-[120px] pt-[120px]  bg-gray-100  '>

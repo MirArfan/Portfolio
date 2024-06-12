@@ -1,12 +1,13 @@
+
 import React from 'react'
 import github from '/src/assets/github.svg'
 import shareicon from '/src/assets/share.svg'
-const FoodPage = (props) => {
+const FoodDelivaryPage = (props) => {
   return (
     <div className={'w-[80%] '}>
-      <h1 className={'text-2xl font-normal mb-2'}>Food Website</h1>
+      <h1 className={'text-2xl font-normal mb-2'}>Food Delivery</h1>
 
-      <p className='text-sm font-normal'> A responsive webpage designed to showcase various food items <br />using HTML and CSS. This project features a visually appealing <br /> layout with sections for displaying food images, descriptions, and <br /> pricing. The design is optimized for responsiveness</p>
+      <p className='text-sm font-normal'> A modern and sleek food delivery website designed using HTML <br /> and CSS. This website offers a seamless user experience with <br /> sections for navigation, restaurant listings, ordering instructions, <br />client testimonials, and newsletter subscription. The design is <br /> responsive, ensuring optimal viewing on all devices.</p>
 
       <hr className="h-[1.5px] my-[12px] bg-gray-900" />
 
@@ -17,7 +18,7 @@ const FoodPage = (props) => {
 
         </ul>
         <div className={'flex flex-row  gap-1.5 text-end'}>
-          <a href="https://github.com/MirArfan/HTML-CSS-project/tree/main/food%20design" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/MirArfan/Food-Delivery" target="_blank" rel="noopener noreferrer">
 
             <img className='w-[15px] h-[17px] cursor-pointer' src={github} alt="github icon" />
           </a>
@@ -29,4 +30,4 @@ const FoodPage = (props) => {
   )
 }
 
-export default FoodPage
+export default FoodDelivaryPage

@@ -1,6 +1,10 @@
 import React from 'react'
 import OtherProjectPicture from './OtherProjectPicture';
 import OtherDetails from './OtherDetails';
+import FoodPage from './FoodPage';
+import FoodDelivaryPage from './FoodDelivaryPage';
+import PortfolioSection from './PortfolioSection';
+import SimpleDomProject from './simpleDomProject';
 // import Foodpage from './FoodPage' ;
 
 const OthersProjectCard = () => {
@@ -13,15 +17,15 @@ const OthersProjectCard = () => {
             </div>
             <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
-                <OtherDetails/>
+                <FoodPage/>
             </div>
             <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
-                <OtherDetails />
+                <FoodDelivaryPage/>
             </div>
             <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
-                <OtherDetails />
+                <SimpleDomProject/>
             </div>
             
         </div>
