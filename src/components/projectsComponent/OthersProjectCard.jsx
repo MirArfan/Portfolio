@@ -1,6 +1,7 @@
 import React from 'react'
 import OtherProjectPicture from './OtherProjectPicture';
 import OtherDetails from './OtherDetails';
+// import Foodpage from './FoodPage' ;
 
 const OthersProjectCard = () => {
     
@@ -12,7 +13,7 @@ const OthersProjectCard = () => {
             </div>
             <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
-                <OtherDetails />
+                <OtherDetails/>
             </div>
             <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
