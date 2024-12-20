@@ -6,19 +6,19 @@ const AchievementsSection = () => {
       contest: "Asia Dhaka Regional Site Online Preliminary Contest 2020",
       rank: "1151th",
       team: "IIUC_Bug Is FAT",
-      link: "https://example.com/contest/2020", // Replace with the actual contest link
+      link: "https://icpc.global/regionals/finder/Dhaka-Preliminary-2021/standings", // Replace with the actual contest link
     },
     {
       contest: "Asia Dhaka Regional Site Online Preliminary Contest 2021",
       rank: "647th",
       team: "BandOfMisfits",
-      link: "https://example.com/contest/2021", // Replace with the actual contest link
+      link: "#", // Replace with the actual contest link
     },
     {
       contest: "IIUC Intra-University Programming Contest Autumn 2022",
       rank: "40th",
       team: "Error_Found",
-      link: "https://example.com/contest/2022", // Replace with the actual contest link
+      link: "https://toph.co/contests/training/x2c4mne/standings", // Replace with the actual contest link
     },
   ];
 
