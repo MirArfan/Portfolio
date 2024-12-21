@@ -9,8 +9,9 @@ const ProjectSection = () => {
         <div>
             <div id='project' className='flex flex-col items-center pb-[120px] pt-[120px]  bg-gray-100  '>
                 <SectionHeader sectionHeading="Featured Project" />
-                <FeaturedProjectCard flexdir="flex-row" />
                 <PortfolioSection flexdir="flex-row-reverse" />
+                <FeaturedProjectCard flexdir="flex-row" />
+                
 
             </div>
             <div className='flex flex-col items-center pb-[120px] pt-[120px]  bg-gray-100  '>

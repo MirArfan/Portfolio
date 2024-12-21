@@ -2,11 +2,15 @@ import React from 'react'
 
 const AboutDetais = () => {
     return (
-        <div>
-            <p className=" ml-0 text-[16px] w-[40vw] justify-start ">
-                I'm Mir Arfan Uddin, a recent graduate from the International Islamic University Chittagong, specializing in Computer Science and Engineering. Throughout my four-year journey, I've dedicated myself to mastering data structures and algorithms, solving over 1250 problems along the way. This experience has honed my analytical skills and fueled my passion for unraveling complex challenges.                <br />
-                <br />
-                Moreover, I've delved into the realm of web development, expanding my proficiency in JavaScript. I'm enthusiastic about its potential to create innovative and interactive web solutions. Whether it's crafting responsive interfaces or implementing frontend functionalities, I'm eager to leverage my programming expertise to contribute meaningfully to impactful projects. With a meticulous approach and a commitment to excellence, I'm ready to collaborate with teams to drive technological advancement while embracing opportunities for continuous learning and growth.
+        <div className=''>
+            <p className=" ml-0 text-[16px] w-[38vw] justify-start ">
+                I’m Mir Arfan Uddin, a recent graduate in Computer Science and Engineering from the International Islamic University Chittagong. My academic journey focused heavily on data structures and algorithms, where I solved over 1,250 competitive programming problems, honing my analytical and problem-solving skills.
+                <br/> <br/> 
+                In addition to my studies, I completed a three-month full-stack training program at Spring Rain Pvt Ltd, where I gained hands-on experience with technologies like JavaScript, React, Node.js, AWS, and DynamoDB. This training equipped me with a strong foundation in full-stack development and prepared me for real-world challenges.
+                <br/> <br/> 
+                Currently, I’m working at Growthly IT, a company specializing in WordPress plugin development. Here, I’ve been focusing on building and maintaining web solutions while further refining my technical expertise.
+                <br/> <br/> 
+                With a passion for web development and a meticulous approach, I thrive in collaborative environments and am committed to contributing to impactful projects while continuously learning and growing
 
             </p>
 

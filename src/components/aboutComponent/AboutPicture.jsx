@@ -5,8 +5,8 @@ import aboutpic from '/src/assets/MirArfan.jpeg';
 // const aboutimage = require('../Aboutme');
 const AboutPicture = () => {
     return (
-        <div>
-            <img src={aboutpic} alt="picture"  className='h-[300px] w-[390px] rounded-md'/>
+        <div className='w-[450px]'>
+            <img src={aboutpic} alt="picture"  className='h-[350px] w-[480px] rounded-md'/>
         </div>
     )
 }

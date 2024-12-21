@@ -4,10 +4,10 @@ import shareicon from '/src/assets/share.svg'
 
 const Portfolio = (props) => {
   return (
-    <div className={'w-[50%] ' + props.aligndir}>
+    <div className={'w-[50%] '}>
 
-      <h1 className={'text-3xl font-normal mb-2 '}>Things App</h1>
-      <p className='text-base font-normal '> This portfolio website, built with React and styled using Tailwind CSS, elegantly presents the owner's skills, projects, experiences, and contact information. Seamlessly divided into distinct sections, it offers visitors a comprehensive overview while showcasing the creator's creativity and professionalism. </p>
+      <h1 className={'text-3xl font-normal mb-2 '}>Food Ordering App</h1>
+      <p className='text-base font-normal '> The Food Ordering app is a full-stack platform for browsing, ordering, and managing food items. It includes user authentication, a shopping cart, secure Stripe payments, and order tracking. An admin panel allows management of food items and orders, with status updates. The app provides a responsive, user-friendly interface for seamless online food delivery.</p>
 
       <hr className="h-[1.5px] my-[12px] bg-gray-900 " />
 
@@ -19,7 +19,7 @@ const Portfolio = (props) => {
           <li>Tailwind CSS</li>
         </ul>
         <div className={'flex flex-row  gap-1.5 text-end  ' + props.alignFlex}>
-        <a href="https://github.com/MirArfan/Portfolio" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/MirArfan/foods-delivery" target="_blank" rel="noopener noreferrer">
             <img className='w-[15px] h-[17px] cursor-pointer' src={github} alt="github icon" />
           </a>
           <img className='w-[15px] h-[16px] cursor-pointer ' src={shareicon} alt="github icon" />
