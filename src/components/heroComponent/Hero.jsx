@@ -1,26 +1,35 @@
 import React from 'react'
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Hero = () => {
     return (
       
-        <section className="hero flex justify-center items-center h-screen" style={{ height: '130vh' }} >
-            <div className="container mx-auto px-4 py-36 text-center mt-20 ">
-                <h1 className="text-6xl font-semibold  text-black">
-                    Hi, I'm Mir Arfan Uddin
-                </h1>
-                <p className="mt-6 text-xl text-gray-900 md:text-2xl lg:text-3xl">
-                    I design and build things.
-                </p>
-                <div className="flex justify-center mt-8">
-                    <svg
-                        className="w-6 h-6 cursor-pointer" 
-                        viewBox="0 0 448 512"
-                    >
-                        <path d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z" />
-                    </svg>
-                </div>
-            </div>
-        </section>
+        <section className="flex flex-col items-center justify-center h-screen text-center px-6 bg-gradient-to-b from-white to-gray-200 text-gray-950">
+      <div className="max-w-3xl">
+        <h1 className="text-4xl sm:text-6xl font-bold animate-fadeIn">
+          Hi, I'm <span className="text-blue-500">Mir Arfan Uddin</span>
+        </h1>
+        <p className="text-lg sm:text-xl mt-4 text-gray-900 animate-fadeIn delay-200">
+          A passionate <span className="text-blue-700"> full-stack developer and competitive programmer</span> eager to take on new challenges and contribute 
+          to impactful projects in a full-time role.
+        </p>
+
+        <div className="mt-6 flex justify-center space-x-4 animate-fadeIn delay-400">
+          <a href="https://github.com/MirArfan" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-2xl hover:text-blue-600 transition" />
+          </a>
+          <a href="https://www.linkedin.com/in/mir-arfan-uddin/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-2xl hover:text-blue-600 transition" />
+          </a>
+          <a href="mailto:mir.arfan.iiuc9@gmail.com">
+            <FaEnvelope className="text-2xl hover:text-blue-600 transition" />
+          </a>
+        </div>
+        
+        
+        
+      </div>
+    </section>
     )
 }
 

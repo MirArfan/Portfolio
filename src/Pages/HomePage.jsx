@@ -19,7 +19,7 @@ const HomePage = () => {
         <NavBar/>
 
           <Routes>
-              <Route path='/Portfolio/' index element={<><Hero/> < ApiCall/></> } />
+              <Route path='/Portfolio/' index element={<><Hero/></> } />
               {/* <Route path='/Portfolio' index element={<QuoteData/>} /> */}
               <Route path='/Portfolio/about' element={<AboutSection/>} />
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />
