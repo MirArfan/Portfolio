@@ -14,6 +14,9 @@ const AboutDetais = () => {
 
             </p>
 
+             
+
+
         </div>
     )
 }
