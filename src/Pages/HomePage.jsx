@@ -10,6 +10,7 @@ import ApiCall from '../components/patchData/ApiCall'
 import QuoteData from '../components/patchData/QuoteData'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ErrorPage from '../components/ErrorComponent/errorPage'
+import Achievement from '../components/achievement/achievement'
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
               <Route path='/Portfolio/about' element={<AboutSection/>} />
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />
               <Route path='/Portfolio/project' element={<ProjectSection/>} />
+              <Route path='/Portfolio/achievement' element={<Achievement/>} />
               <Route path='/Portfolio/contact' element={<ContactSection/>} />
               <Route path='*' element={<ErrorPage/> } />
           </Routes>

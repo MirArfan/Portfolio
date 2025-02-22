@@ -8,7 +8,7 @@ const AboutDetais = () => {
                 <br/> <br/> 
                 In addition to my studies, I completed a three-month full-stack training program at Spring Rain Pvt Ltd, where I gained hands-on experience with technologies like JavaScript, React, Node.js, AWS, and DynamoDB. This training equipped me with a strong foundation in full-stack development and prepared me for real-world challenges.
                 <br/> <br/> 
-                Currently, I’m working at Growthly IT, a company specializing in WordPress plugin development. Here, I’ve been focusing on building and maintaining web solutions while further refining my technical expertise.
+                Currently, I’m working at Growthly IT, a company specializing in WordPress theme development. Here, I work with customization and build WooCommerce-based charity websites while further refining my technical expertise
                 <br/> <br/> 
                 With a passion for web development and a meticulous approach, I thrive in collaborative environments and am committed to contributing to impactful projects while continuously learning and growing
 

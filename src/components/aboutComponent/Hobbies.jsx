@@ -40,7 +40,7 @@ const images = [
   "/src/assets/treess_with_pond.jpg",
   "/src/assets/water_with_glass.jpg",
   "/src/assets/a_beautiful_home.jpg",
-  "/src/assets/a_flower_with_green_background.jpeg",
+  "/src/assets/a_flower_with_green_background.jpg",
   "/src/assets/drops1.jpg",
   "/src/assets/drops2.jpg",
   "/src/assets/flower_with_sun.jpg",
@@ -49,36 +49,25 @@ const images = [
 
 const Hobbies = () => {
   return (
-    <div className="container mx-6 p-6 ">
+    <div className="container mx-6 p-6 ml-32 mr-32">
       {/* Hobbies Section */}
       
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Hobbies & Interests</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[200px] grid-flow-dense">
-      {images.map((src, index) => {
-        // Assign special spans to certain images
-        let colSpan = "col-span-1";
-        let rowSpan = "row-span-1";
-
-        if (index % 6 === 0) colSpan = "col-span-2 row-span-2"; // Large Image
-        else if (index % 3 === 0) colSpan = "col-span-2"; // Wide Image
-
-        return (
+      <div className="grid md:grid-cols-2 gap-6 px-32">
+        {hobbies.map((hobby) => (
           <div
-            key={index}
-            className={`overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ${colSpan} ${rowSpan}`}
+            key={hobby.id}
+            className="flex flex-col items-center bg-white shadow-lg rounded-lg p-4 hover:scale-105 transition-transform"
           >
-            <img
-              src={src}
-              alt={`Gallery Image ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
+            {hobby.icon}
+            <h3 className="text-xl font-semibold mt-2">{hobby.name}</h3>
+            <p className="text-gray-600 text-center mt-2">{hobby.description}</p>
           </div>
-        );
-      })}
-    </div>
+        ))}
+      </div>
 
       {/* Photography Section */}
-      <div className="py-12 bg-gray-50">
+      {/* <div className="py-12 bg-gray-50">
       <h2 className="text-2xl font-bold text-center mb-6">📸 Photography</h2>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-auto grid-flow-row-dense">
@@ -87,13 +76,13 @@ const Hobbies = () => {
               <img
                 src={src}
                 alt={`Gallery Image ${index + 1}`}
-                className="w-full h-auto object-cover row-span-2 col-span-2 "
+                className="w-full h-auto object-cover row-span-2  "
               />
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </div> */}
       
     </div>
   )

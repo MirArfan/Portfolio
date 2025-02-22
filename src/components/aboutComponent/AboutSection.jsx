@@ -19,7 +19,7 @@ const AboutSection = () => {
                 <Skill/>
             </div>
             {/* <Journey/> */}
-            {/* <Hobbies/> */}
+            <Hobbies/>
         </section >
     )
 }
