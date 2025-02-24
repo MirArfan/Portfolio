@@ -25,7 +25,7 @@ const HomePage = () => {
               <Route path='/Portfolio/about' element={<AboutSection/>} />
               <Route path='/Portfolio/experience' element={<ExperienceSection/>} />
               <Route path='/Portfolio/project' element={<ProjectSection/>} />
-              <Route path='/Portfolio/achievement' element={<Achievement/>} />
+              {/* <Route path='/Portfolio/achievement' element={<Achievement/>} /> */}
               <Route path='/Portfolio/contact' element={<ContactSection/>} />
               <Route path='*' element={<ErrorPage/> } />
           </Routes>
