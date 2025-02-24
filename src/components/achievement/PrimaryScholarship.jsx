@@ -1,57 +1,70 @@
-import React from 'react'
+import React from 'react';
 import primay_marks from '/src/assets/certificate/class-5-result-marks.jpg';
-
-
 
 const PrimaryScholarship = () => {
   return (
-    <section className="py-12 bg-gray-50 mt-24">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-20 text-gray-800">
-        Government's Primary Scholarship (General)
+    <section className="bg-gradient-to-r from-blue-100 to-purple-100 py-12 px-6 rounded-xl shadow-lg">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+          🏆 Government's Primary Scholarship (General)
         </h2>
-        <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="md:flex">
-            {/* Image Section */}
-            <div className="md:w-1/2">
-              <img
-                src={primay_marks} // Replace with your certificate image
-                alt="Primary Scholarship Certificate"
-                className="w-full h-full object-cover"
-              />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {/* Image Section */}
+          <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-purple-600 cursor-pointer transition-transform">
+            <img
+              src={primay_marks} // Replace with your certificate image
+              alt="Primary Scholarship Certificate"
+              className="rounded-lg shadow-sm w-full"
+            />
+            <p className="text-center text-gray-600 mt-2">
+              প্রাথমিক শিক্ষা সমাপনী পরীক্ষা ২০০৯
+            </p>
+          </div>
+
+          {/* Details Section */}
+          <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-purple-600">
+            <h3 className="text-2xl font-semibold text-purple-700 mb-4">
+              প্রাথমিক শিক্ষা সমাপনী পরীক্ষা ২০০৯
+            </h3>
+
+            <div className="space-y-4 text-gray-700">
+              <p>
+                <span className="font-medium">Name:</span> Mir Arfan Uddin
+              </p>
+              <p>
+                <span className="font-medium">Roll Number:</span> 2863
+              </p>
+              <p>
+                <span className="font-medium">School:</span> Kanchan Nagar Mohan Raja Reg. Primary School
+              </p>
+              <p>
+                <span className="font-medium">Division & District:</span> Chittagong Division, Chittagong District, Fatikchhari Upazila
+              </p>
+              <p>
+                <span className="font-medium">Achievement:</span> Awarded the <strong>Primary Scholarship</strong> for outstanding performance in the প্রাথমিক শিক্ষা সমাপনী পরীক্ষা held in 2009.
+              </p>
             </div>
 
-            {/* Details Section */}
-            <div className="md:w-1/2 p-6">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-              প্রাথমিক শিক্ষা সমাপনী পরীক্ষা ২০০৯
-              </h3>
-              <p className="text-gray-600 mb-4">
-                I was awarded the <strong>Primary Scholarship</strong> for my outstanding performance in the <strong>প্রাথমিক শিক্ষা সমাপনী পরীক্ষা</strong> held in 2009. This achievement was a significant milestone in my academic journey.
+            <div className="mt-6">
+              <h4 className="text-xl font-semibold text-gray-800 mb-2">
+                About the Achievement:
+              </h4>
+              <p className="text-gray-600">
+                The প্রাথমিক শিক্ষা সমাপনী পরীক্ষা (Primary Education Completion Examination) is a nationwide exam in Bangladesh. Securing the <strong>Primary Scholarship</strong> was a significant milestone in my academic journey, reflecting my dedication and hard work during my primary education.
               </p>
-              <div className="space-y-2">
-                <p className="text-gray-700">
-                  <strong>Name:</strong> Mir Arfan Uddin
-                </p>
-                <p className="text-gray-700">
-                  <strong>Roll Number:</strong> 2863
-                </p>
-                <p className="text-gray-700">
-                  <strong>School:</strong> Kanchan Nagar Mohan Raja Reg. Primary School
-                </p>
-                <p className="text-gray-700">
-                  <strong>Division & District:</strong> Chittagong Division, Chittagong District, Fatikchhari Upazila
-                </p>
-              </div>
-              <p className="text-gray-600 mt-4">
-                This scholarship was a testament to my hard work and dedication during my primary education. It motivated me to continue striving for excellence in my academic and professional life.
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-gray-600 italic">
+                "This scholarship was a testament to my hard work and dedication during my primary education. It motivated me to continue striving for excellence in my academic and professional life."
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PrimaryScholarship
+export default PrimaryScholarship;

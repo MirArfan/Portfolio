@@ -65,14 +65,14 @@ const KgSchool = () => {
 
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="bg-gradient-to-r from-blue-100 to-purple-100 py-12 px-6 rounded-xl shadow-lg">
       <div className="container mx-auto px-40 mt-32">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
       Celebrating Milestones: KAF Gold Medal Scholarship
     </h2>
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
           {achievements.map((achievement, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
+            <div key={index} className=" hover:shadow-xl duration-300 text-center  bg-white p-6 rounded-xl shadow-md border-l-4 border-purple-600 cursor-pointer transition-transform">
               <h3 className="text-xl font-semibold text-gray-700 mb-2">{achievement.title}</h3>
               <p className="text-gray-600 mb-4">{achievement.description}</p>
               <p className="text-gray-600"><strong>Grade:</strong><span className='text-blue-700 font-semibold'> {achievement.grade}</span></p>

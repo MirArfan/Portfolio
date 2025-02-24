@@ -3,6 +3,7 @@ import KgSchool from './KgSchool';
 import PrimaryScholarship from './PrimaryScholarship';
 import Ankur from './Ankur';
 import Sports from './Sports';
+import Handwritting from './Handwritting';
 
 
 
@@ -17,6 +18,7 @@ const Achievement = () => {
         <PrimaryScholarship/>
         <Ankur/>
         <Sports/>
+        <Handwritting/>
     </section>
   )
 }
