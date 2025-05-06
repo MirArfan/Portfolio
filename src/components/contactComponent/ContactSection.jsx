@@ -30,7 +30,7 @@ const ContactSection = () => {
                 {show && <ContactForm />}
 
                 <div className="flex flex-wrap justify-center gap-4 mt-20">
-                    <a href="mir.arfan.iiuc9@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:mir.arfan.iiuc9@gmail.com" target="_blank" rel="noopener noreferrer">
                         <img className="w-6 h-6 hover:scale-110 transition" src={emailIcon} alt="Email" />
                     </a>
                     <a href="https://github.com/MirArfan" target="_blank" rel="noopener noreferrer">
