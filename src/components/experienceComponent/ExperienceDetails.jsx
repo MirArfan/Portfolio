@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ExperienceDetails = () => {
-    const data = ['Designed and customized dynamic websites using Elementor and integrated WooCommerce for e-commerce functionality.','Optimized website performance and SEO using Yoast SEO and managed interactive forms with WPForms and Bit Form.','Developed and maintained e-learning platforms using Tutor LMS, ensuring seamless course delivery and management.'];
+    const data = ['Designed and customized dynamic websites using Elementor and integrated WooCommerce for e-commerce functionality.','Managed interactive forms with WPForms and Bit Form.','Developed and maintained e-learning platforms using Tutor LMS, ensuring seamless course delivery and management.'];
 
     return (
         <div className=' w-[75%]'>

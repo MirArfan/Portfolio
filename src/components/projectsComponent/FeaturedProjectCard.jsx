@@ -1,6 +1,6 @@
 import React from 'react'
 import FeaturedProjectPicture from './FeaturedProjectPicture'
-import FeaturedDetails from './FeaturedDetails'
+import Juris_meet_detalis from './Juris_meet_detalis';
 
 const FeaturedProjectCard = (props) => {
     let aligndir = "text-start";
@@ -10,7 +10,7 @@ const FeaturedProjectCard = (props) => {
         <div className='flex gap-14'>
             <div className={'flex mt-[50px] justify-between w-[70vw] gap-6 items-center ' + props.flexdir}>
                 <FeaturedProjectPicture />
-                <FeaturedDetails aligndir={aligndir} alignFlex={alignFlex} />
+                <Juris_meet_detalis aligndir={aligndir} alignFlex={alignFlex} />
             </div>
         </div>
     )

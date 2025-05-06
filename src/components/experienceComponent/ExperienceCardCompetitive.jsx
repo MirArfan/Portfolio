@@ -33,7 +33,7 @@ const ExperienceCardCompetitive = (props) => {
                         <ul className="list-none mt-2 text-[14px] text-center">
                             <li><strong>Max Rating:</strong> 953</li>
                             <li><strong>Contests:</strong> 36+</li>
-                            <li><strong>Problems Solved:</strong> 845+</li>
+                            <li><strong>Problems Solved:</strong> 860+</li>
                         </ul>
                     </div>
                     {/* LeetCode */}
@@ -56,8 +56,8 @@ const ExperienceCardCompetitive = (props) => {
                         <span className="mt-2 text-[16px]">Raahaat</span>
                         <ul className="list-none mt-2 text-[14px] text-center">
                             <li><strong>Max Rating:</strong>1438 (2*)</li>
-                            <li><strong>Contests:</strong> 16</li>
-                            <li><strong>Problems Solved:</strong> 50+</li>
+                            <li><strong>Contests:</strong> 18+</li>
+                            <li><strong>Problems Solved:</strong> 60+</li>
                         </ul>
                     </div>
 

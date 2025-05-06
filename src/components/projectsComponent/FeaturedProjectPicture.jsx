@@ -1,5 +1,5 @@
 import React from 'react'
-import rectanglePic from "/src/assets/things_app_pic.png"
+import rectanglePic from "/src/assets/juris-meet-home.png"
 
 const FeaturedProjectPicture = () => {
   return (
