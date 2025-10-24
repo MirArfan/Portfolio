@@ -39,7 +39,7 @@ const ContactSection = () => {
                     <a href="https://www.linkedin.com/in/mir-arfan-uddin/" target="_blank" rel="noopener noreferrer">
                         <img className="w-6 h-6 hover:scale-110 transition" src={linkedin} alt="LinkedIn" />
                     </a>
-                    <a href="https://www.youtube.com/@mirrahat9375" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@rainybytes" target="_blank" rel="noopener noreferrer">
                         <img className="w-6 h-6 hover:scale-110 transition" src={youtube} alt="YouTube" />
                     </a>
                 </div>

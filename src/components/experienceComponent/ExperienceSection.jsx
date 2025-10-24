@@ -5,13 +5,14 @@ import ExperienceCardFullStack from './ExperienceCardSpringRain'
 import ExperienceCardCompetitive from './ExperienceCardCompetitive'
 import AchievementsSection from './AchievementsSection'
 import LeadershipExperience from './LeadershipExperience'
+import TrainingPrograms from './TrainingPrograms'
 const ExperienceSection = () => {
   return (
     <div id='experience' className='flex flex-col items-center pb-[120px] pt-[120px] '>
         <SectionHeader sectionHeading="Experience"/>
         <ExperienceCard flexdir="flex-row" />
-        {/* <ExperienceCard flexdir="flex-row-reverse" /> */}
-        <ExperienceCardFullStack flexdir="flex-row-reverse" />
+        {/* <ExperienceCardFullStack flexdir="flex-row-reverse" /> */}
+        <TrainingPrograms/>
         <ExperienceCardCompetitive flexdir="flex-row" />
         <AchievementsSection />
         <LeadershipExperience/>

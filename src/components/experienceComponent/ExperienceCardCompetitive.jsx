@@ -29,11 +29,14 @@ const ExperienceCardCompetitive = (props) => {
                             <img src={codeforcesLogo} alt="Codeforces" className="w-[50px] h-[50px]" />
                             
                         </a>
+                        <a href="https://codeforces.com/profile/Raahaat" target="_blank" rel="noopener noreferrer">
+                          
                         <span className="mt-2 text-[16px]">Raahaat</span>
+                        </a>
                         <ul className="list-none mt-2 text-[14px] text-center">
                             <li><strong>Max Rating:</strong> 953</li>
                             <li><strong>Contests:</strong> 36+</li>
-                            <li><strong>Problems Solved:</strong> 860+</li>
+                            <li><strong>Problems Solved:</strong> 870+</li>
                         </ul>
                     </div>
                     {/* LeetCode */}
@@ -41,11 +44,14 @@ const ExperienceCardCompetitive = (props) => {
                         <a href="https://leetcode.com/u/raahaat/" target="_blank" rel="noopener noreferrer">
                             <img src={leetcodeLogo} alt="LeetCode" className="w-[50px] h-[50px]" />
                         </a>
+                        <a href="https://leetcode.com/u/raahaat/" target="_blank" rel="noopener noreferrer">
+                          
                         <span className="mt-2 text-[16px]">Raahaat</span>
+                        </a>
                         <ul className="list-none mt-2 text-[14px] text-center">
                             <li><strong>Max Rating:</strong> 1630</li>
                             <li><strong>Contests:</strong> 07+</li>
-                            <li><strong>Problems Solved:</strong> 160+</li>
+                            <li><strong>Problems Solved:</strong> 230+</li>
                         </ul>
                     </div>
                     {/* CodeChef */}
@@ -53,11 +59,14 @@ const ExperienceCardCompetitive = (props) => {
                         <a href="https://www.codechef.com/users/raahaat" target="_blank" rel="noopener noreferrer">
                             <img src={codechefLogo} alt="CodeChef" className="w-[50px] h-[50px]" />
                         </a>
+                         <a href="https://www.codechef.com/users/raahaat" target="_blank" rel="noopener noreferrer">
+                          
                         <span className="mt-2 text-[16px]">Raahaat</span>
+                        </a>
                         <ul className="list-none mt-2 text-[14px] text-center">
                             <li><strong>Max Rating:</strong>1438 (2*)</li>
                             <li><strong>Contests:</strong> 18+</li>
-                            <li><strong>Problems Solved:</strong> 60+</li>
+                            <li><strong>Problems Solved:</strong> 90+</li>
                         </ul>
                     </div>
 

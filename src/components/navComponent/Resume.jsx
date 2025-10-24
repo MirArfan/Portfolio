@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import pdf from '/src/assets/TASE_Mir_Arfan_Uddin_IIUC.pdf';
  const Resume = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,7 +12,7 @@ import React, { useState } from "react";
     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-2">
       {/* Resume Download Button */}
       <a
-        href="/Mir_Arfan_Uddin_resume.pdf"
+        href={pdf}
         download="Mir_Arfan_Uddin_resume.pdf"
         className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 transition-all duration-300 shadow-lg"
       >

@@ -10,7 +10,7 @@ const Hero = () => {
           Hi, I'm <span className="text-blue-500">Mir Arfan Uddin</span>
         </h1>
         <p className="text-lg sm:text-xl mt-4 text-gray-900 animate-fadeIn delay-200">
-          A passionate <span className="text-blue-700"> full-stack developer and competitive programmer</span> eager to take on new challenges and contribute 
+          A passionate <span className="text-blue-700"> full-stack developer and Problem solver</span> eager to take on new challenges and contribute 
           to impactful projects in a full-time role.
         </p>
 
